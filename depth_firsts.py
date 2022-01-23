@@ -1,3 +1,7 @@
+
+
+from binary_tree import Node
+from tests import test
 '''
 depth first go depth wise, uses a stack to traverse the tree using a pointer and pushes the next node visited.
 Remember: left node is more priority than right
@@ -5,10 +9,6 @@ Depth algo time complexity:  O(N)
 ''     ''  space complexity: O(N)
 
 '''
-
-from binary_tree import Node
-from tests import test, rec_test
-
 @test
 def depthFirstValues(root):
     if root == None:
